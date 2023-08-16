@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer {
+            width: 1000px;
+            height: 800px;
+            background-color: black;
+            margin: 0px auto;
+        }
+
+        #header {
+            width: 1000px;
+            height: 150px;
+            background-color: rgb(80, 133, 163);
+            text-align: center;
+        }
+
+        #menu {
+            width: 1000px;
+            height: 50px;
+            background-color: rgb(0, 255, 0);
+
+        }
+
+        #content {
+            width: 1000px;
+            height: 500px;
+            background-color: rgb(224, 224, 77);
+        }
+
+        #footer {
+            width: 1000px;
+            height: 100px;
+            background-color: grey;
+            text-align: center;
+        }
+
+        #left {
+            width: 200px;
+            height: 500px;
+            background-color: rgb(150, 101, 145);
+            float: left;
+        }
+
+        #middle {
+            width: 600px;
+            height: 500px;
+            background-color: rgb(121, 216, 223);
+            float: left;
+        }
+
+        #right {
+            width: 200px;
+            height: 500px;
+            background-color: rgb(0, 142, 80);
+            float: left;
+        }
+
+        #mymenu {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            text-decoration: none;
+        }
+
+        #mymenu li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        #mymenu li a {
+            color: white;
+            text-decoration: none;
+            background-color: red;
+            /* padding: 5px; */
+            font-size: 25px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        #mymenu li a:hover {
+            background-color: yellow;
+        }
+        #left-footer {
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            float: left;
+            border-right: 2px solid black;
+            
+        }
+        #middle-footer {
+            width: 600px;
+            height: 100px;
+            float: left;
+            border-right: 2px solid black;
+        }
+        #right-footer {
+            width: 190px;
+            height: 100px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="header">
+            <img src="Digicoders-Logo-with-tagline.png" height="150px" />
+        </div>
+        <div id="menu">
+            <u id="mymenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gellery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </u>
+
+        </div>
+        <div id="content">
+            <div id="left">
+                <h2 style="text-align: center;">News</h2>
+                <Marquee direction="up" height="400px">
+                    <a href="#">Codewar 1.0</a>
+                    <br>
+                    <br>
+                    <a href="#">15 August Celebration by Digicoders team</a>
+                    <br>
+                    <br>
+                    <a href="#">Codewar 2.0</a>
+                    <br>
+                    <br>
+                    <a href="#">Summer Training</a>
+                    <br>
+                    <br>
+                    <a href="#">Intership 6 Months</a>
+                </Marquee>
+            </div>
+            <div id="middle">
+                <h1 style="text-align: center; text-transform: uppercase;">15 August Celebration by Digicoders</h1>
+                <p style="text-align: center;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus minima necessitatibus
+                    officiis. Sunt dolore quam recusandae, optio blanditiis error praesentium necessitatibus deserunt
+                    totam ipsa illum debitis possimus, voluptas hic nesciunt perferendis officia sit, inventore dolores
+                    exercitationem esse cumque? Eligendi dolorem suscipit quia aspernatur, provident illo iusto,
+                    consequatur vitae ab ducimus fugit commodi qui perspiciatis, magnam voluptatum similique aperiam
+                    possimus dignissimos! Quos quae deleniti aliquid expedita ipsam ex tempora amet totam dicta eius
+                    ab ex animi ea natus beatae repellendus hic dolorum, impedit eius atque, illo fuga maiores
+                    recusandae, quisquam enim vel! Obcaecati molestias vero dolorem assumenda porro libero molestiae, et
+                    earum dolores, quisquam labore exercitationem pariatur, optio neque corrupti ratione? Obcaecati
+                    facilis et, provident nulla, animi alias, dolores autem obcaecati. Similique, maiores reprehenderit
+                    laboriosam illum mollitia, ipsum dignissimos excepturi error laborum assumenda nemo asperiores
+                    aperiam fugiat praesentium sapiente explicabo, nihil minima corrupti. Expedita, molestias
+                    voluptatum! Quo numquam minus nulla dicta, sint atque. Animi modi praesentium ipsum accusantium
+                    
+                    molestias ipsa, eos aut recusandae accusamus ipsum sit incidunt voluptate, odio quos corrupti fugiat
+                    cumque, cum eveniet nisi est. Quidem facere ducimus laboriosam natus!</p>
+            </div>
+            <div id="right">
+                <h2 style="text-align: center;">Photo Gallery</h2>
+                <marquee direction="up" height="400px">
+                    <img src="Photo gellery (1).jpg" width="180px">
+                    <img src="Photo gellery (2).jpg" width="180px">
+                    <img src="Photo gellery (3).jpg" width="180px">
+                    <img src="Photo gellery (4).jpg" width="180px">
+                    <img src="Photo gellery (5).jpg" width="180px">
+
+                </marquee>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="left-footer">
+                <h2 style="text-align: center;">About</h2>
+                <a href="https://digicoders.in/">Digicoders</a>
+                
+            </div>
+            <div id="middle-footer">
+                <h2>Profile</h2>
+                <a href="https://www.linkedin.com/in/ashok-priyadarshi-799231224/">Linkedin Profile</a>
+                
+                <a href="https://www.instagram.com/ashokpriyadarshi024/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D">Instagram Profile</a>
+                
+                <a href="https://www.facebook.com/ashokpriyadarshi024?mibextid=ZbWKwL">Facebook Profile</a>
+                
+                <a href="https://twitter.com/Ashok024kumar">Tiwtter</a>
+            </div>
+            <div id="right-footer">
+                <h2>Copyright</h2>
+                <h3>2023-2024</h3>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
